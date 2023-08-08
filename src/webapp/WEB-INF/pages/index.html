@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body>
+<body><a href="createcars">Create cars</a><br/>
+<a href=http://localhost:8080/cars?count=5>Select top 5 cars</a><br/>
+<a href=http://localhost:8080/cars?count=3>Select top 3 cars</a><br/>
+<a href=http://localhost:8080/cars>Select all cars</a><br/>
 <div>
     <th:block th:each="msg : ${messages}">
         <h1 th:text="${msg}"></h1>
